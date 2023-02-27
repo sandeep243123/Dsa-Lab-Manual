@@ -54,7 +54,7 @@ class List
     }
 
 }
-public class Para {
+public class Program2 {
     public static void main(String []args) {
     node head=null;
         int arr[]={1,4,2,6,3,8};
