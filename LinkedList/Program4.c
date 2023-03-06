@@ -20,20 +20,6 @@ void insert(int d)
 		temp=temp->link;
 	}
 }
-void mov()
-{
-	struct node *t;
-	temp=head;
-	while(temp->link->link)
-	{
-		temp=temp->link;
-	}
-	t=temp->link;
-	temp->link->link=head->link;
-	temp->link=head;
-	head->link=NULL;
-	head=t;
-}
 void show()
 {
 	
